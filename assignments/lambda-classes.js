@@ -34,8 +34,8 @@ class Student extends Person {
         this.className = studentattr.className;
         this.favSubjects = studentattr.favSubjects;
     }
-    listsSubjects() {
-        this.favSubjects.map(item => console.log(item));
+    listsSubjects(student) {
+        return (this.favSubjects); 
     }
     PRAssignment(subject) {
         return `${this.name} has begun sprint challenge on ${subject}`;
